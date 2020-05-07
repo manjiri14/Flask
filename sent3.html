@@ -1,0 +1,9 @@
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='sent2.css')}}">
+
+
+{% if d=='y' %}
+<br><br><br><br><br><br><br><br><br><br><br><br><h1>{{ "Your sentence is positive :D" }}</h1>
+{% else %}
+<br><br><br><br><br><br><br><br><br><br><br><br><h1>{{ "Your sentence is negative :(" }}</h1>
+{% endif %}
